@@ -12,15 +12,15 @@ Finally, this project contains a web app where you can input a message and get c
 
 ## Description of key files
 
-1.run.py: Script to run the web app
+   1) run.py: Script to run the web app
 
-2.disaster_message.csv: Contains the original disaster messages
+   2) disaster_message.csv: Contains the original disaster messages
 
-3.disaster_categories.csv: Contains the labels of the disaster messages
+   3) disaster_categories.csv: Contains the labels of the disaster messages
 
-4.process_data.py: Runs the ETL pipeline to process data from both disaster_message.csv and disaster_categories.csv and load them into an SQLite database, DisasterResponse.db.
+   4) process_data.py: Runs the ETL pipeline to process data from both disaster_message.csv and disaster_categories.csv and load them into an SQLite database, DisasterResponse.db.
 
-5.train_classifier.py: Runs the ML pipeline to classify the messages. The pipeline will build the model, optimize it using grid search and print the model's evaluation. It will then save the classifier model.
+   5) train_classifier.py: Runs the ML pipeline to classify the messages. The pipeline will build the model, optimize it using grid search and print the model's evaluation. It will then save the classifier model.
 
 ## Instructions:
 
